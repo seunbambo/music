@@ -1,6 +1,8 @@
 {
   "name": "music",
   "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,27 +14,13 @@
   },
   "dependencies": {
     "@vee-validate/rules": "^4.6.2",
+    "is-number": "^7.0.0",
     "pinia": "^2.0.16",
     "vee-validate": "^4.6.2",
     "vue": "^3.2.37",
     "vue-router": "^4.1.2"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.1.0",
-    "@vitejs/plugin-vue": "^3.0.1",
-    "@vue/eslint-config-prettier": "^7.0.0",
-    "@vue/test-utils": "^2.0.2",
-    "autoprefixer": "^10.4.7",
-    "cypress": "^10.3.0",
-    "eslint": "^8.5.0",
-    "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-vue": "^9.0.0",
-    "jsdom": "^20.0.0",
-    "postcss": "^8.4.14",
-    "prettier": "^2.5.1",
-    "start-server-and-test": "^1.14.0",
-    "tailwindcss": "^3.1.6",
-    "vitest": "^0.18.1",
     "@rushstack/eslint-patch": "^1.8.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/eslint-config-prettier": "^9.0.0",
@@ -43,11 +31,12 @@
     "eslint-plugin-cypress": "^2.15.1",
     "eslint-plugin-vue": "^9.23.0",
     "jsdom": "^24.0.0",
-    "postcss": "^8.4.38",
+    "postcss": "^8.4.14",
     "prettier": "^3.2.5",
     "start-server-and-test": "^2.0.3",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.8",
     "vite-plugin-vue-devtools": "^7.0.25",
+    "vitest": "^0.18.1"
   }
 }
